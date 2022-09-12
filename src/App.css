@@ -1,6 +1,4 @@
-body{
-    width:1440px;
-}
+
 .contaier{
     background-color: rgba(4, 28, 19, 0.868);
     height: 20vh;
@@ -46,5 +44,5 @@ button{
 .main{
     display: flex;
     justify-content: center;
-    width:100%;
+    width:70%;
 }
