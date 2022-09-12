@@ -1,0 +1,45 @@
+.contaier{
+    background-color: rgba(4, 28, 19, 0.868);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+.form-control{
+    width: 80vh;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+.form-control:focus {
+    outline: none;
+}
+button{
+   padding: 12px;
+   border-radius: 6px;
+   border: none;
+   background-color: rgba(14, 101, 242, 0.861);
+   color: aliceblue;
+   font-size: larger;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   cursor: pointer;
+}
+.main .row{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 10px;
+    align-items: center;
+    
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
