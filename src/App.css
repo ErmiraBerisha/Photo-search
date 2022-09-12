@@ -1,3 +1,6 @@
+body{
+    width:1440px;
+}
 .contaier{
     background-color: rgba(4, 28, 19, 0.868);
     height: 20vh;
